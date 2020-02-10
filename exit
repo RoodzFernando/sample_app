@@ -1,0 +1,24 @@
+[33m4a8b4fa[m[33m ([m[1;36mHEAD -> [m[1;32mbasic-login[m[33m, [m[1;31morigin/basic-login[m[33m)[m Implement the session
+[33ma8f4e20[m Add the integration test
+[33mcd4a58d[m Add the sessions controller and update the routes
+[33m5933b46[m[33m ([m[1;31morigin/master[m[33m)[m Update the bootstrap gem
+[33ma6bd1ad[m[33m ([m[1;31mheroku/master[m[33m)[m Use SSL and the Puma webserver in production
+[33m8cbc14b[m[33m ([m[1;31morigin/sign-up[m[33m, [m[1;32msign-up[m[33m)[m Finish user signup
+[33m63a0f00[m Add the User resources
+[33m62a1270[m[33m ([m[1;31morigin/modeling-users[m[33m, [m[1;32mmodeling-users[m[33m)[m Make a basic User model
+[33mdeb97d2[m Create the user model
+[33mbd9fbf5[m Update files
+[33m61de406[m[33m ([m[1;31morigin/filling-in-layout[m[33m, [m[1;32mfilling-in-layout[m[33m)[m Finish layout and routes
+[33mf5e3a0e[m Fix errors in the routes
+[33m85b1b16[m Add partials and modify the Gemfile
+[33m23e314c[m[33m ([m[1;31mheroku/rails-flavored-ruby[m[33m, [m[1;32mrails-flavored-ruby[m[33m)[m Modify the main config for testing purpose
+[33md67639e[m Complete advanced setup
+[33m85d2abb[m Merge branch 'static-pages'
+[33ma174460[m[33m ([m[1;32mstatic-pages[m[33m)[m Finish static pages
+[33m9d3cfdd[m[33m ([m[1;31morigin/static-pages[m[33m)[m Run some tests on the StaticPages controller
+[33m2407b24[m Add a Static Pages controller
+[33me999fd4[m Add hello world
+[33m34e0aa4[m Update Gemfile and README.md
+[33ma754cb2[m Install missing gems
+[33mcd187cf[m Update the Gemfile
+[33md51003f[m Initialize the sample_app files

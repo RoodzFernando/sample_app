@@ -7,7 +7,7 @@ VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
                       format: {with: VALID_EMAIL_REGEX},
                       uniqueness: {case_sensitive: false}
 
-  validates :password, presence: true, length: {minimum: 6}
+  validates :password, presence: true, length: {minimum: 6}, allow_nil: true
 
   has_secure_password
 
@@ -32,7 +32,7 @@ VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 
-   def forget
+  def forget
     update_attribute(:remember_digest, nil)
   end
 end

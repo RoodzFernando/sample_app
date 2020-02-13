@@ -1,14 +1,16 @@
 require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
+  def setup
+    @user = users(:roodz)
+    @other_user = users(:archer)
+  end
+
   test "should get new" do
     get signup_path
     assert_response :success
   end
 
-  def setup
-    @user = users(:roodz)
-  end
 
   test "should redirect edit when not logged in" do
     get edit_user_path(@user)

@@ -11,6 +11,12 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 
+gem 'faker',          '1.7.3'
+gem 'will_paginate', '~> 3.2', '>= 3.2.1'
+# gem 'will_paginate',           '3.1.6'
+# gem 'bootstrap-will_paginate', '1.0.0'
+gem 'bootstrap-will_paginate', '~> 1.0'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets

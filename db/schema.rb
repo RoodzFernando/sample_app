@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_02_23_233239) do
+=======
+ActiveRecord::Schema.define(version: 2020_02_14_161746) do
+>>>>>>> 4b0c891e796eb16b6a61c2cba5536b2412fd787a
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -21,7 +25,11 @@ ActiveRecord::Schema.define(version: 2020_02_23_233239) do
     t.string "remember_digest"
     t.boolean "admin", default: false
     t.string "activation_digest"
+<<<<<<< HEAD
     t.boolean "activated"
+=======
+    t.boolean "activated", default: false
+>>>>>>> 4b0c891e796eb16b6a61c2cba5536b2412fd787a
     t.datetime "activated_at"
     t.index ["email"], name: "index_users_on_email", unique: true
   end

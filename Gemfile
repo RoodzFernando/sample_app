@@ -12,7 +12,8 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.1'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'rails-ujs', '~> 0.1.0'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
-gem 'carrierwave',             '1.2.2'
+# gem 'carrierwave',             '1.2.2'
+gem 'carrierwave', '~> 2.1'
 gem 'mini_magick',             '4.7.0'
 gem 'faker',          '1.7.3'
 gem 'will_paginate', '~> 3.2', '>= 3.2.1'
@@ -76,7 +77,8 @@ end
 group :production do
   # gem 'pg', '0.20.0'
   gem 'pg', '~> 1.2', '>= 1.2.2'
-  gem 'fog', '1.42'
+  # gem 'fog', '1.42'
+  gem 'fog', '~> 2.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
